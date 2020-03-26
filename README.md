@@ -2,10 +2,9 @@
 
 Written using _JavaScript_, _Mocha.js_ and _Chai.js_. As a reporting utility _mochawesome_ reporter is used.
 
-Here can be found the test scripts for 2 of the swapi.co API endpoints:
+Here can be found the test scripts for 2 of the swapi.co API endpoint:
 
 - `/people`
-- `/films`
 
 ## To set up infrastructure run:
 
