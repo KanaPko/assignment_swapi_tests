@@ -4,7 +4,8 @@
   "description": "Automated tests for swapi.co API written using JavaScript, Mocha.js and Chai.js",
   "main": "index.js",
   "scripts": {
-    "test": "mocha tests --watch --timeout 300000"
+    "test": "mocha tests --timeout 300000 -w",
+    "test-report": "mocha tests --reporter mochawesome --reporter-options html=true,reportDir=testReports,reportFilename=testReport --timeout 300000"
   },
   "repository": {
     "type": "git",

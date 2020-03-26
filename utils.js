@@ -1,4 +1,4 @@
-let validateProperties = (schemaArray, object) =>
+const validateProperties = (schemaArray, object) =>
   schemaArray.every(prop => {
     return object.hasOwnProperty(prop);
   });

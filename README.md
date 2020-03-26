@@ -22,5 +22,5 @@ $ npm test
 ## To generate test report use:
 
 ```shell
-
+$ npm test-report
 ```
